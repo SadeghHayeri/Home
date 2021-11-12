@@ -4,9 +4,8 @@ from time import sleep
 led = LED(18)
 
 while True:
+    sleep(12 * 3600)
     led.on()
-    print("On")
-    sleep(.1)
+    sleep(6 * 3600)
     led.off()
-    print("Off")
-    sleep(.1)
+    sleep(6 * 3600)
